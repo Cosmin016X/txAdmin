@@ -30,7 +30,7 @@
         .cfxrebtn{
             border: solid 2px #f40552;
             background: #2e1828b2;
-            box-shadow: 0 0 5px 0 rgba(244, 5, 82, 0.75);
+            box-shadow: 0 0 5px 0 #f40552;
             font-weight: 300;
             text-transform: uppercase;
             line-height: 1;
@@ -50,9 +50,9 @@
 
         .profile-pic{
             height: 100px;
-            -moz-box-shadow: 2px 4px 8px rgb(143, 143, 143);
-            -webkit-box-shadow: 2px 4px 8px rgb(143, 143, 143);
-            box-shadow: 2px 4px 8px rgb(143, 143, 143);
+            -moz-box-shadow: 2px 4px 8px #8f8f8f;
+            -webkit-box-shadow: 2px 4px 8px #8f8f8f;
+            box-shadow: 2px 4px 8px #8f8f8f;
             border-radius: 50em;
         }
 
@@ -197,7 +197,7 @@
                                         id="noMaster-pin" autofocus required>
                                     </div>
                                     <button class="btn btn-primary px-4" 
-                                        type="submit">Link Account</button>
+                                        type="submit">Link Account:</button>
                                 </form>
                             </div>
                             <script>
@@ -350,7 +350,7 @@
                         </a>
                     <% } %>
 
-                    <div class="hrsep hrsep-small">Info</div>
+                    <div class="hrsep hrsep-small">Info:</div>
                     <div class="text-muted">
                         <strong>Server profile:</strong> <%= serverProfile %> <br>
                         <strong>txAdmin version:</strong> <%= txAdminVersion %> <br>
